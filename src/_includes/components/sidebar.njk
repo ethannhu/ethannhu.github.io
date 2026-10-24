@@ -1,0 +1,16 @@
+<aside class="sidebar" aria-label="Sidebar">
+  <nav class="side-box" aria-label="Main navigation">
+    <h2 class="side-title">MENU</h2>
+    <ul class="nav-list">
+      {% for item in site.navigation %}
+      <li><a href="{{ item.href }}"{% if active == item.key %} aria-current="page"{% endif %}>{{ item.label }}</a></li>
+      {% endfor %}
+    </ul>
+  </nav>
+  <section class="side-box">
+    <h2 class="side-title">INFORMATION</h2>
+    <p>Last Updated</p>
+    <p class="mono">{{ site.updated }}</p>
+    <p>Status: ONLINE</p>
+  </section>
+</aside>

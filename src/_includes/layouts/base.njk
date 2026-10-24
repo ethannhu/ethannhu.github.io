@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ description }}">
+  <title>{{ title }}</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <div class="site-frame">
+    {% include "components/utility-bar.njk" %}
+    {% include "components/site-header.njk" %}
+    <div class="site-layout">
+      {% include "components/sidebar.njk" %}
+      {{ content | safe }}
+    </div>
+  </div>
+</body>
+</html>

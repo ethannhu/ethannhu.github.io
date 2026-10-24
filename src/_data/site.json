@@ -1,0 +1,16 @@
+{
+  "name": "Zihang Hu / 胡子航",
+  "subtitle": "Software Engineering & AI Research",
+  "organization": {
+    "name": "Smart Software Engineering Lab (ECNU)",
+    "url": "https://github.com/ecnusse"
+  },
+  "updated": "2026.10.24",
+  "navigation": [
+    { "label": "HOME", "href": "/index.html", "key": "index" },
+    { "label": "PUBLICATIONS", "href": "/publications.html", "key": "publications" },
+    { "label": "PROJECTS", "href": "/projects.html", "key": "projects" },
+    { "label": "NOTES", "href": "/notes/", "key": "notes" },
+    { "label": "LINKS", "href": "/links.html", "key": "links" }
+  ]
+}
